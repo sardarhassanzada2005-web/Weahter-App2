@@ -36,7 +36,7 @@ cityInput.addEventListener("keydown", (e)=> {
 })
 
 async function getFetchData (endPoint, city){
-    const apiUrl = `https:api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric`
+    const apiUrl = `https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric`
   
     const response = await fetch(apiUrl);
   
@@ -87,7 +87,7 @@ async function updateWeatherInfo (city){
     windValue.textContent = speed + 'M/s'
 
     currentDataTxt.textContent = getCurrentData()
-    summaryImg.src = `images/assets/${getWeatherIcon(id)}`
+    summaryImg.src = `./images/assets/${getWeatherIcon(id)}`
 
     await updateForcastInfo(city)
     showDisplaySection(weatherInfoSection);
