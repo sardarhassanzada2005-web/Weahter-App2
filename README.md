@@ -1,7 +1,7 @@
 # 📝 Weather App (  Public API ) 
 
 >### click [_here_](https://sardarhassanzada2005-web.github.io/Weahter-App2/) to see demo
-![Weather-App]()
+![Weather-App](./images/photo.png)
 
 ### Overview
     A simple weather application that allows users to search for a city
